@@ -3,7 +3,7 @@ cask "crun" do
   name "crun"
   desc "Run commands concurrently"
   homepage "https://github.com/llimllib/crun"
-  version "0.6.0"
+  version "0.8.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "crun" do
     on_intel do
       url "https://github.com/llimllib/crun/releases/download/v#{version}/crun-v#{version}-darwin-amd64.tar.gz",
         verified: "github.com/llimllib/crun"
-      sha256 "6de47275a02462033ca59f7c354f62ad39729220eaa121001c013d0e6df1d97c"
+      sha256 "5df90bad29f11f2354c05c56b1c0f6b7f780cf8f9a5feafb592b152618920f19"
     end
     on_arm do
       url "https://github.com/llimllib/crun/releases/download/v#{version}/crun-v#{version}-darwin-arm64.tar.gz",
         verified: "github.com/llimllib/crun"
-      sha256 "06a1a8ef337b3fd66a043160a1fd49415e3a6f47686066ade0790ada0899ee82"
+      sha256 "09ee5fa4e16d8e73648f6c78dae12b3137d5a64d491957b6a8838d46060708c7"
     end
   end
 
@@ -28,12 +28,12 @@ cask "crun" do
     on_intel do
       url "https://github.com/llimllib/crun/releases/download/v#{version}/crun-v#{version}-linux-amd64.tar.gz",
         verified: "github.com/llimllib/crun"
-      sha256 "cbbcda09b3e0941b7695a11c04cc1362fea19e11c86392ac36137cef623d6b4e"
+      sha256 "ac115ad120d75069d5f2c09e5793d894e1e62c75489c96e241d58afd331bf100"
     end
     on_arm do
       url "https://github.com/llimllib/crun/releases/download/v#{version}/crun-v#{version}-linux-arm64.tar.gz",
         verified: "github.com/llimllib/crun"
-      sha256 "86dff5bf6c5b6149f5ef7259b4a2621e8a16bc3ae9212bc746018e03a32f4973"
+      sha256 "09a2a29a3b6ee6e22c4dfcf73ff1e2ad90ad8721b87961837cf889efe862dcfa"
     end
   end
 
