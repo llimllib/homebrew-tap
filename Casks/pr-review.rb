@@ -3,7 +3,7 @@ cask "pr-review" do
   name "pr-review"
   desc "AI-powered code review using multiple specialized agents"
   homepage "https://github.com/llimllib/pr-review"
-  version "0.8.0"
+  version "0.9.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "pr-review" do
     on_intel do
       url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-darwin-amd64.tar.gz",
         verified: "github.com/llimllib/pr-review"
-      sha256 "a68e75654629b3afff445349667b1ab0629cd665f7e78d81494badc6c7d49c21"
+      sha256 "63fbe94a9c84bd327000eb6738e3a1c89e4534afb82d8c58bb65def5880c1677"
     end
     on_arm do
       url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-darwin-arm64.tar.gz",
         verified: "github.com/llimllib/pr-review"
-      sha256 "c66ae2257944c2f6cf2ddb47335159150495f3d97b16d13e4692504ad17a7e7e"
+      sha256 "b15ed2ed51d5e2f95f0130ab0f9ef9237740c94d5e29962679dfbb3e0d97cac5"
     end
   end
 
@@ -28,12 +28,12 @@ cask "pr-review" do
     on_intel do
       url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-linux-amd64.tar.gz",
         verified: "github.com/llimllib/pr-review"
-      sha256 "34b0a5518d489a23025fd2c4cc2f316d9dcc935bb198b912cc96765c4375c9c1"
+      sha256 "1458b35cfa7f6e8bfbed04547d2eb5942e49fa992089c95a10534e688e1122ec"
     end
     on_arm do
       url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-linux-arm64.tar.gz",
         verified: "github.com/llimllib/pr-review"
-      sha256 "dfa6cc45b84e17bfc940f73f7e62c08e118db1504f3002dc716f5fef901eb148"
+      sha256 "a65a3160c5a90d243f6bd522821c9a847d626b04fddecc1672972d08bad5b98e"
     end
   end
 
