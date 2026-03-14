@@ -3,7 +3,7 @@ cask "mdriver" do
   name "mdriver"
   desc "Streaming markdown printer for the terminal with syntax highlighting"
   homepage "https://github.com/llimllib/mdriver"
-  version "0.16.0"
+  version "0.17.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "mdriver" do
     on_intel do
       url "https://github.com/llimllib/mdriver/releases/download/v#{version}/mdriver-v#{version}-darwin-amd64.tar.gz",
         verified: "github.com/llimllib/mdriver"
-      sha256 "502ce4c5881ae1e78e67346349af7adce812ecf4d538ff4553111e91c01d20a8"
+      sha256 "8c7903da75a34f45f8de724a9184e102ccaa35fa5045454d64ca971ee661c65d"
     end
     on_arm do
       url "https://github.com/llimllib/mdriver/releases/download/v#{version}/mdriver-v#{version}-darwin-arm64.tar.gz",
         verified: "github.com/llimllib/mdriver"
-      sha256 "9b7e462252baaca395abda9ab33612d324845d98b41205b3ae287d6e8ddadc3d"
+      sha256 "ce01bc94ae743131981298f55c2d65b48d722190193bc3f93a3e43aa2b812523"
     end
   end
 
@@ -28,7 +28,7 @@ cask "mdriver" do
     on_intel do
       url "https://github.com/llimllib/mdriver/releases/download/v#{version}/mdriver-v#{version}-linux-amd64.tar.gz",
         verified: "github.com/llimllib/mdriver"
-      sha256 "929ccc11563a7f494c9a9a10928e7f6bbeabdb1d6ec5efc82a8c59c21b09fb65"
+      sha256 "120e437dbcae3b181071b3bd9971b410e81e67c7cd0ae5c5e602b8a0d77cb8e5"
     end
   end
 
