@@ -3,7 +3,7 @@ cask "pr-review" do
   name "pr-review"
   desc "AI-powered code review using multiple specialized agents"
   homepage "https://github.com/llimllib/pr-review"
-  version "3.2.0"
+  version "3.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,27 +13,23 @@ cask "pr-review" do
 
   on_macos do
     on_intel do
-      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-darwin-amd64.tar.gz",
-        verified: "github.com/llimllib/pr-review"
-      sha256 "7b8fee81242fd9b5a359ead7a895114c55ad377e51b6778210ae45c7bad09ed1"
+      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-darwin-amd64.tar.gz"
+      sha256 "8e667268a0b166f72c085e964d53201b53b644af6f69b93dbafd3d5e7aef62f8"
     end
     on_arm do
-      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-darwin-arm64.tar.gz",
-        verified: "github.com/llimllib/pr-review"
-      sha256 "9152097e088b33a0ee86f3e7530ab460ba48c3f49179a12fc725405d688a0b6f"
+      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-darwin-arm64.tar.gz"
+      sha256 "48222680120bb91225739128969611822a3fcd545400e3e2ffea274ace92aeac"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-linux-amd64.tar.gz",
-        verified: "github.com/llimllib/pr-review"
-      sha256 "1f7ce84a90a69a191a53af562746d238e8e505baa94c4910f96d09206ad191b9"
+      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-linux-amd64.tar.gz"
+      sha256 "74710fc3dd70cfd5249a83858155786dbca792ddf609668a4e7bc02540a6b156"
     end
     on_arm do
-      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-linux-arm64.tar.gz",
-        verified: "github.com/llimllib/pr-review"
-      sha256 "81994a15813b7fa5cff74fce51f84e93b9cf72bb9b9310b1348cc81a7dac8f71"
+      url "https://github.com/llimllib/pr-review/releases/download/v#{version}/pr-review-v#{version}-linux-arm64.tar.gz"
+      sha256 "076d72ffe352b3c833ff93b596e609a19e5e966378fa397c750b000e9670b145"
     end
   end
 
