@@ -6,17 +6,17 @@ cask "spireweb" do
     end
   end
 
-  version "0.0.1"
+  version "0.0.2"
 
   on_macos do
     on_arm do
-      sha256 "e017cc8ae6264fbfa8154c4628659575be5b2ac1b5e28f8caaf790924a5549bd"
+      sha256 "0f2b523e547d04790a45bf6f7ee0f887ff4d1c380ce3e19fd74125d9b14ec8cf"
       url "https://github.com/llimllib/spireweb/releases/download/v#{version}/spireweb_#{version}_macos_arm64.tar.gz"
     end
   end
 
   name "spireweb"
-  desc "Search and read pi agent sessions"
+  desc "Search and read agent sessions from pi and Claude Code"
   homepage "https://github.com/llimllib/spireweb"
 
   livecheck do
