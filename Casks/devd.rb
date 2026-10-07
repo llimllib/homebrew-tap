@@ -6,25 +6,25 @@ cask "devd" do
     end
   end
 
-  version "0.11.2"
+  version "0.12.0"
 
   on_macos do
     on_arm do
-      sha256 "e06c82558fc183a3d046ec370bc4b975c8841b84615a83068ff29a6961952034"
+      sha256 "914bcc1fb0e3ac683b4575c8149fd569e296e9952ddcbc9679babc86f1def513"
       url "https://github.com/llimllib/devd/releases/download/v#{version}/devd_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "144300b0c87494596de9fd0dcb8d9e9e0abe83298e480aa8fd54d3a28ffc97f4"
+      sha256 "9b930efa44ccba6235adeddce63f4d01457bb8e1a12570bdc52ca013930a4ff5"
       url "https://github.com/llimllib/devd/releases/download/v#{version}/devd_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a6f8339cffea896707d47e873c6a41a68000a3032264c7134e4f25da1a037993"
+      sha256 "1f055b64a02ba47da902c840495ac2d796b3ed887b9bf18c61fbdeb69dc9c1b5"
       url "https://github.com/llimllib/devd/releases/download/v#{version}/devd_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e6dcf1364d3c905f32fabdd12a08fe7cd2608cb39ed06f5c1a9ca4001bdb240c"
+      sha256 "e54b826f01f490e53434503922d13c562262a391241cbc07d764cdb0bf02afd0"
       url "https://github.com/llimllib/devd/releases/download/v#{version}/devd_#{version}_linux_amd64.tar.gz"
     end
   end
