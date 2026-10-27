@@ -2,13 +2,12 @@
 cask "brightlantern" do
   app "Bright Lantern.app"
 
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
-    on_arm do
-      sha256 "abd5f1cd945b67da36fefd8432d2c54e9b18b99abb4fdd7af077a686ef0dc712"
-      url "https://github.com/llimllib/brightlantern/releases/download/v#{version}/brightlantern_#{version}_macos_arm64.zip"
-    end
+    depends_on arch: :arm64
+    sha256 "34567817ed7bfb4dfa6992b4e1ae3ef20e8c7fe114b0056ba78b27726f13b8f1"
+    url "https://github.com/llimllib/brightlantern/releases/download/v#{version}/brightlantern_#{version}_macos_arm64.zip"
   end
 
   name "brightlantern"
@@ -18,6 +17,7 @@ cask "brightlantern" do
   livecheck do
     skip "Auto-generated on release."
   end
+  depends_on :macos
 
   binary "#{appdir}/Bright Lantern.app/Contents/MacOS/brightlantern"
 
